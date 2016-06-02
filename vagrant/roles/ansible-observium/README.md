@@ -12,24 +12,6 @@ Install required Ansible roles...
 ansible-galaxy install -r requirements.yml
 ````
 
-Vagrant
--------
-Easily spin up a Vagrant Lab...
-````
-cd vagrant
-vagrant up
-````
-Open your browser to http://127.0.0.1:8080  
-And login
-````
-user: admin
-password: observium
-````
-When you are all done and ready to clean-up the Vagrant Lab...  
-````
-./cleanup.sh
-````
-
 Role Variables
 --------------
 
