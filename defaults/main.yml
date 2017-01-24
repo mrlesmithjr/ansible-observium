@@ -30,6 +30,7 @@ observium_debian_pre_reqs:
   - snmp
   - subversion
   - whois
+  - php5-xcache # http://www.observium.org/docs/tuning/
 #  - mysql-server
 observium_dl_dir: '/opt'
 observium_dl_package: 'observium-community-latest.tar.gz'
