@@ -17,9 +17,4 @@
     dest: "{{ observium_base_dir }}"
     username: "{{ observium_commercial_svn_user }}"
     password: "{{ observium_commercial_svn_password }}"
-
-# - name: install-commercial | Downloading Observium to {{ observium_dl_dir }}
-#   shell: "svn co --username '{{ observium_commercial_svn_user }}'  --password '{{ observium_commercial_svn_password }}' {{ observium_commercial_svn_repo }} {{ observium_base_dir }}"
-#   args:
-#     warn: false
-#     creates: "{{ observium_base_dir }}/poller.php"
+    update: no
